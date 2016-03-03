@@ -1,0 +1,35 @@
+{
+    "name": "Mba.ux.Locale",
+    "version": "0.0.1",
+    "homepage": "https://github.com/bluebile/Mba.ux.Locale",
+    "authors": [
+        "Bluebile <info@bluebile.com>"
+    ],
+    "description": "Componente de Locale para apps sencha touch",
+    "main": [
+        "Locale.js",
+        "LocaleManager.js"
+    ],
+    "keywords": [
+        "senchatouch",
+        "extjs",
+        "ux",
+        "model",
+        "data",
+        "locale"
+    ],
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "demo",
+        "ux",
+        "**/*.*~",
+        "Gruntfile.js",
+        "bower.json",
+        "package.json",
+        "test",
+        "tests"
+    ]
+}
