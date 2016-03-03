@@ -28,7 +28,7 @@
  *      title: MbaLocale.get('usuario.login'),
 */
 
-Ext.define('Mba.ux.locale.LocaleManager', {
+Ext.define('Mba.ux.Locale.LocaleManager', {
 	  /**
       * Propriedades de configuração
       */
@@ -81,7 +81,6 @@ Ext.define('Mba.ux.locale.LocaleManager', {
 		language && (language = language.toLowerCase());
 		this.setDeviceLanguage(language);
 		language = (language && language != this.getLinguagemPadrao()) ? this.getSeparadorLinguagem() + language: "";
-		language="";
 		// montando a URL do arquivo de mensagem.
 		var url = this.obterPrefixo() + this.getNomeArquivo() + language + ".json";
 		
