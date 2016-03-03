@@ -32,5 +32,5 @@
         "test",
         "tests"
     ],
-      "requires": ["Mba.ux.locale.LocaleManager","Mba.ux.locale.Locale"],
+      "requires": ["Mba.ux.locale.LocaleManager","Mba.ux.locale.Locale"]
 }
