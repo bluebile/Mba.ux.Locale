@@ -82,7 +82,8 @@ Ext.define('Mba.ux.Locale.LocaleManager', {
 		this.setDeviceLanguage(language);
 		language = (language && language != this.getLinguagemPadrao()) ? this.getSeparadorLinguagem() + language: "";
 		// montando a URL do arquivo de mensagem.
-		var url = this.obterPrefixo() + this.getNomeArquivo() + language + ".json";
+		language="";
+        var url = this.obterPrefixo() + this.getNomeArquivo() + language + ".json";
 		
 		// carregando arquivo de mensagem.
 		var locale = this.carregarLocaleObject(url);
