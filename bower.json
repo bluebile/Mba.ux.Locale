@@ -7,7 +7,7 @@
     ],
     "description": "Componente de Locale para apps sencha touch",
     "main": [
-        "Locale.js",
+        "Manager.js",
         "LocaleManager.js"
     ],
     "keywords": [
