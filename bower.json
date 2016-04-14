@@ -1,6 +1,6 @@
 {
     "name": "Mba.ux.Locale",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "homepage": "https://github.com/bluebile/Mba.ux.Locale",
     "authors": [
         "Bluebile <info@bluebile.com>"
@@ -32,5 +32,5 @@
         "test",
         "tests"
     ],
-      "requires": ["Mba.ux.Locale.Manager"]
+      "requires": ["Mba.ux.Locale.*"]
 }

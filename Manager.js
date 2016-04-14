@@ -74,36 +74,7 @@ Ext.define('Mba.ux.Locale.Manager', {
          Ext.Date.getMonthNumber = function(name) {
            return Date.monthNumbers[name.substring(0, 1).toUpperCase() + name.substring(1, 3).toLowerCase()];
          };
-
-     	 Ext.define('Locale.picker.Picker', {
-    		 override: 'Ext.picker.Picker',
-    		 config: {
-                 doneButton: this.get('sencha.picker.text.done'),
-                 cancelButton: this.get('sencha.picker.text.cancel')
-    		 }
-         });
-         
-     	 Ext.define('Locale.picker.Date', {
-    		 override: 'Ext.picker.Date',
-    		 config: {
-                 doneButton: this.get('sencha.picker.text.done'),
-                 cancelButton: this.get('sencha.picker.text.cancel'),
-                 dayText: this.get('sencha.date.text.day'),
-                 monthText: this.get('sencha.date.text.month'),
-                 yearText: this.get('sencha.date.text.year'),
-                 slotOrder: this.get('sencha.date.slotorder')
-    		 }
-         });
-         
-     	 Ext.define('Locale.NestedList', {
-    		 override: 'Ext.NestedList',
-    		 config: {
-    			 backText: this.get('sencha.nestedlist.text.back'),
-                 loadingText: this.get('sencha.nestedlist.text.loading'),
-                 emptyText: this.get('sencha.nestedlist.text.empty')
-    		 }
-         });
-         
+ 
 
          if(Ext.util.Format){
              Ext.util.Format.defaultDateFormat = this.get('sencha.date.format');
