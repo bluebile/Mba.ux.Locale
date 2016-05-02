@@ -16,9 +16,9 @@ Ext.define('Mba.ux.Locale.Manager', {
 	constructor: function(config) {
 		this.callParent(arguments);
 		
-		if (this.getDeviceLanguage().indexOf("en") != 0) {
+		//if (this.getDeviceLanguage().indexOf("en") != 0) {
 			this.configurarLinguagemComponentes();
-		}
+		//}
 		
 	},
 	
